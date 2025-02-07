@@ -106,7 +106,7 @@ initResources: {}
 networkHost: "0.0.0.0"
 
 volumeClaimTemplate:
-  accessModes: ["ReadWriteOnce"]
+  accessModes: ["ReadWriteMany"]
   resources:
     requests:
       storage: 5Gi
